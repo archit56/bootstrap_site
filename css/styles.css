@@ -1,0 +1,214 @@
+/* html_tags styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    /* font-family: 'Montserrat-black', sans-serif; */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monsterrat-Black", sans-serif;
+}
+
+/* class styles */
+
+.nav-link {
+    color: aliceblue;
+    margin: 12px;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+    padding-bottom: 0;
+}
+
+.download_botton {
+    margin: 3rem 1rem;
+}
+
+.features {
+    text-align: center;
+}
+
+.feature_heading {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.features_icon {
+    color: #ef8172;
+    padding: 1rem 0;
+    size: 3rem;
+    font-size: 5rem;
+}
+
+.features_icon:hover {
+    color: #ff4c68;
+}
+
+.feature_text {
+    text-align: center;
+    color: #8f8f8f;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.front_page_heading {
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 5rem;
+}
+
+.phone_image {
+    /* margin-left: 50px; */
+    width: 60%;
+    transform: rotate(15deg);
+    position: relative;
+    left: 30%;
+}
+
+
+/* id styles */
+
+#features {
+    padding: 5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+    font-family: 'Montserrat-bold', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 5%;
+}
+
+.carousel-item {
+    padding: 5% 20%;
+}
+
+.testimonial_image {
+    border-radius: 100%;
+    margin: 5% 1% 5% 5%;
+    width: 200px;
+}
+
+.testimonial_text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press section */
+
+#press {
+    background-color: #ef8172;
+    padding: 5%;
+    padding-top: 0%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.press_logo {
+    margin: 2%;
+    width: 200px;
+}
+
+/* Pricing section */
+
+.pricing {
+    text-align: center;
+}
+
+.pricing_btn {
+    /* width: 50%;
+    margin: auto; */
+    /* padding: 0 20%; */
+    text-align: center;
+}
+
+/* z-index */
+/* 
+.front-page {
+    position: relative;
+    z-index: -1;
+} */
+
+/* .phone_image {
+    position: relative;
+    /* z-index: 0;
+} */
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+/* triggers when screen size samller than 992 px */
+@media (max-width: 992px) {
+    .front_page_heading {
+        text-align: center;
+    }
+
+    .phone_image {
+        transform: rotate(0);
+        margin: 0 auto;
+    }
+
+    .download_botton {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+/* cta section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 70px 0 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom_btn {
+    margin: 10px;
+}
+
+.contact_icons {
+    margin: 5px;
+    margin-top: 20px;
+    
+}
+
+/* footer section */
+
+#footer {
+    text-align: center;
+}
+
+.copyright_text {
+    color: grey;
+    margin-top: 5px;
+}
